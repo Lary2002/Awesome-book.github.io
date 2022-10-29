@@ -97,6 +97,11 @@ function publier(){
 
 }
 
+document.addEventListener('keydown', (e) => {
+    if (e.key == 'Enter') {
+        publier();
+    }
+})
 //pub.addEventListener('click', publier())
 
 
